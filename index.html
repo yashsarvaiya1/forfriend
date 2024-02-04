@@ -4,11 +4,23 @@
 
 <html lang="en">
 
-
-
-
-
 <head>
+
+  <script>
+    let myAudio = new Audio();
+    myAudio.src = 'hbd.mp3';
+
+    // Function to play audio
+    function playAudio() {
+        myAudio.play();
+    }
+
+    // Add an event listener to the document for a user gesture
+    document.addEventListener('click', function() {
+        // Play audio on user gesture
+        playAudio();
+    });
+</script>
 
   <meta charset="UTF-8">
 
@@ -29,7 +41,9 @@
 
 
 <body>
-
+  <script>
+    document.querySelector(".one").click();
+  </script>
   <div class="container">
 
     <div class="one">

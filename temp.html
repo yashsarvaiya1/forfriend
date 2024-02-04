@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        window.onload = setInterval(GameLoop, 1000 / 10); //10fps
+        let myAudio = new Audio();
+        myAudio.src = 'hbd.mp3';
+        function GameLoop() {
+            myAudio.play();
+            if (myAudio.paused == true) {
+            myAudio.play();
+        }
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoplaying and Looping Audio</title>
+</head>
+<body>
+    
+</body>
+</html>
