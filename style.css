@@ -82,7 +82,7 @@ body {
 
 .one {
 
-  font-size: 4.5rem;
+  font-size: 4rem;
 
 }
 
@@ -245,6 +245,7 @@ body {
   max-width: 100%;
 
   height: auto;
+  align-self: center;
 
 }
 
@@ -529,12 +530,21 @@ body {
     left: 32%;
 
   }
+  #img1 {display: none;}
+  #img2 {display: block;}
+  #img3 {display:none;}
+
+  
 
 }
 
 
 
 @media screen and (max-width: 500px) {
+
+  #img1 {display: none;}
+  #img2 {display: block;}
+  #img3 {display:none;}
 
   .container {
 
@@ -578,27 +588,25 @@ body {
 
 
 
-  .six .hat {
+  .six img {
 
-    width: 50px;
+    top: -10px;
 
-    top: -20px;
-
+    display: block;
+    height: auto;
+    align-self: center;
+  
   }
-
-
 
   .wish-hbd {
 
-    font-size: 2.2em;
+    font-size: 1.5rem;
 
   }
 
-
-
   .wish h5 {
 
-    font-size: 1.4rem;
+    font-size: 1rem;
 
   }
 
@@ -613,3 +621,5 @@ body {
   }
 
 }
+
+
