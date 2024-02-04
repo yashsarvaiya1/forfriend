@@ -523,7 +523,7 @@ body {
 
 
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
+/* @media screen and (max-height: 850px) and (max-width: 450px) {
 
   .six .hat {
 
@@ -536,11 +536,11 @@ body {
 
   
 
-}
+} */
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
 
   #img1 {display: none;}
   #img2 {display: block;}
