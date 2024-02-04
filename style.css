@@ -540,7 +540,7 @@ body {
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
 
   #img1 {display: none;}
   #img2 {display: block;}
